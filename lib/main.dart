@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         return;
       }
       controller.startImageStream((image) {
-
+        // TODO: process image frames here
       });
       setState(() {});
     }).catchError((Object e) {
